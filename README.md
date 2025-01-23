@@ -6,7 +6,7 @@ X-rays spectroscopy is used to investigate the elemental composition and chemica
 <img src="https://github.com/Congyu-Lin/nuclear-pulse-dataset-for-pileup-correction/blob/main/detector.png" width="400"> 
 
 ## Dataset structure
-Our dataset incorporates the three aforementioned types
+Our dataset incorporates the three types
 of data. Specifically, for Type i, the input feature consists of a 64 ns clip of pile-
 up signal, including 20 ns before and 44 ns after the pulse peak. The label for
 Type i is the energy of the particle corresponding to the pulse peak. For Type
