@@ -17,3 +17,6 @@ a vector of the same length as the input. Each value in the vector represents th
 energy of a particle arriving at the corresponding time step, or 0 if no particle
 arrived
 <img src="https://github.com/Congyu-Lin/nuclear-pulse-dataset-for-pileup-correction/blob/main/label.png" width="400"> 
+
+## Note
+Due to the large volume of the dataset, we will be gradually uploading the data over the coming period.
