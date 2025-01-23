@@ -7,12 +7,12 @@ X-rays spectroscopy is used to investigate the elemental composition and chemica
 
 ## Dataset structure
 Our dataset incorporates the three types
-of data. Specifically, for Type i, the input feature consists of a 64 ns clip of pile-
+of data. Specifically, for Type I, the input feature consists of a 64 ns clip of pile-
 up signal, including 20 ns before and 44 ns after the pulse peak. The label for
-Type i is the energy of the particle corresponding to the pulse peak. For Type
+Type II is the energy of the particle corresponding to the pulse peak. For Type
 ii, the input feature is a 200 ns segment of pile-up signal, with the label being
 the original non-pile-up signal that was used to generate the pile-up data. For
-Type iii, the input is also a 200 ns segment of pile-up signals, while the label is
+Type III, the input is also a 200 ns segment of pile-up signals, while the label is
 a vector of the same length as the input. Each value in the vector represents the
 energy of a particle arriving at the corresponding time step, or 0 if no particle
 arrived
